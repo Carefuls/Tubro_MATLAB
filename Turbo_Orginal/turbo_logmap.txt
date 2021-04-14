@@ -1,0 +1,1539 @@
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9665e-01    4.9665e-01    4.9665e-01    4.9749e-01    4.9749e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9456e-01    4.9204e-01    4.9414e-01    4.9456e-01    4.9456e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9805e-01    4.9721e-01    4.9860e-01    4.9777e-01    4.9944e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0000e-01    5.0063e-01    5.0126e-01    5.0063e-01    5.0188e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9983e-01    5.0067e-01    5.0151e-01    5.0067e-01    5.0168e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',110,1)">110 </a>for nEN = 1:length(EbN0db)
+length(EbN0db)
+
+ans =
+
+     1
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.8074e-01    4.9162e-01    4.9246e-01    4.9162e-01    4.9162e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0042e-01    5.0544e-01    5.0335e-01    5.0251e-01    5.0251e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9860e-01    5.0335e-01    5.0195e-01    5.0168e-01    5.0140e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0314e-01    5.0586e-01    5.0482e-01    5.0523e-01    5.0544e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0184e-01    5.0536e-01    5.0369e-01    5.0570e-01    5.0402e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',110,1)">110 </a>for nEN = 1:length(EbN0db)
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',110,1)">110 </a>for nEN = 1:length(EbN0db)
+if system_dependent('IsDebugMode')==1, dbcont; end
+rand(1,L_total)
+
+ans =
+
+  列 1 至 18
+
+    0.2118    0.5098    0.1483    0.3380    0.7764    0.6691    0.5258    0.2374    0.9407    0.9579    0.8172    0.6854    0.1131    0.4785    0.0669    0.9056    0.6268    0.9462
+
+  列 19 至 36
+
+    0.0209    0.0133    0.3055    0.2469    0.3442    0.1339    0.5689    0.0682    0.9698    0.9644    0.1804    0.6226    0.3715    0.1876    0.3484    0.5057    0.0975    0.1928
+
+  列 37 至 54
+
+    0.2781    0.0712    0.6504    0.6103    0.2784    0.2293    0.0146    0.8662    0.5343    0.0804    0.7662    0.0169    0.5198    0.2106    0.6269    0.1216    0.6839    0.2669
+
+  列 55 至 72
+
+    0.5365    0.4641    0.6969    0.0630    0.7911    0.6070    0.4028    0.1274    0.3854    0.2665    0.1332    0.1666    0.3516    0.3055    0.1833    0.1873    0.5429    0.4193
+
+  列 73 至 90
+
+    0.7702    0.9708    0.5866    0.9640    0.7649    0.5519    0.1094    0.1683    0.0888    0.8895    0.0298    0.8306    0.1274    0.2612    0.0953    0.4293    0.0231    0.2512
+
+  列 91 至 108
+
+    0.7640    0.6642    0.1507    0.4774    0.2590    0.5178    0.8165    0.1280    0.8859    0.1822    0.7682    0.5489    0.2397    0.2025    0.2178    0.7413    0.0577    0.4024
+
+  列 109 至 126
+
+    0.7022    0.3537    0.1554    0.7349    0.6534    0.8337    0.6021    0.8768    0.8522    0.8963    0.6873    0.9817    0.8626    0.5100    0.1391    0.9976    0.3399    0.6299
+
+  列 127 至 144
+
+    0.0282    0.2876    0.0401    0.6815    0.6323    0.1688    0.1734    0.6447    0.5546    0.4119    0.2635    0.1750    0.5882    0.3735    0.6797    0.3441    0.2809    0.5274
+
+  列 145 至 162
+
+    0.9096    0.0897    0.7837    0.1346    0.0180    0.9034    0.0543    0.0207    0.8251    0.4281    0.0508    0.9958    0.2722    0.0655    0.6663    0.3111    0.8194    0.0546
+
+  列 163 至 180
+
+    0.3496    0.5379    0.6115    0.6250    0.9454    0.8225    0.2773    0.2434    0.6541    0.0741    0.4741    0.1579    0.6360    0.5858    0.3338    0.5855    0.1059    0.1038
+
+  列 181 至 198
+
+    0.4107    0.2616    0.4116    0.8964    0.9547    0.5434    0.2413    0.8255    0.4892    0.7510    0.8273    0.7795    0.4663    0.1243    0.3900    0.7754    0.0658    0.5935
+
+  列 199 至 216
+
+    0.4073    0.5306    0.9220    0.0700    0.6441    0.8874    0.5053    0.2817    0.6982    0.4499    0.7731    0.9726    0.1779    0.5877    0.3238    0.1759    0.2376    0.9408
+
+  列 217 至 234
+
+    0.5532    0.9032    0.2825    0.8412    0.8846    0.7790    0.6574    0.7800    0.0067    0.3441    0.6618    0.4637    0.4489    0.5224    0.7773    0.0335    0.7654    0.3901
+
+  列 235 至 252
+
+    0.2381    0.4457    0.5377    0.2570    0.0578    0.2836    0.3147    0.7650    0.0101    0.0425    0.5956    0.9547    0.8342    0.1241    0.9001    0.1995    0.5422    0.1992
+
+  列 253 至 270
+
+    0.1840    0.5411    0.7399    0.1203    0.4115    0.4567    0.1728    0.2410    0.2674    0.7264    0.9675    0.2836    0.3834    0.6844    0.2495    0.4636    0.0761    0.1095
+
+  列 271 至 288
+
+    0.8933    0.1448    0.4327    0.7713    0.5238    0.9405    0.0070    0.3180    0.1982    0.4560    0.3400    0.5038    0.3228    0.0258    0.0259    0.9267    0.3981    0.9672
+
+  列 289 至 306
+
+    0.3510    0.5685    0.0450    0.1017    0.9059    0.0793    0.6036    0.4380    0.5019    0.1499    0.8779    0.1539    0.5107    0.6621    0.3814    0.9398    0.2743    0.0459
+
+  列 307 至 324
+
+    0.0182    0.0301    0.5786    0.2884    0.5355    0.1771    0.4266    0.2712    0.7330    0.3022    0.8373    0.8565    0.4109    0.4140    0.1681    0.1998    0.7766    0.0852
+
+  列 325 至 342
+
+    0.6954    0.9079    0.6750    0.7648    0.0678    0.4096    0.4718    0.2027    0.7164    0.4032    0.5712    0.5873    0.9835    0.2228    0.1364    0.2252    0.4898    0.7401
+
+  列 343 至 360
+
+    0.2551    0.4519    0.2952    0.4635    0.4000    0.4000    0.7188    0.7674    0.0526    0.3288    0.4564    0.7208    0.0273    0.7918    0.4813    0.3981    0.2834    0.3524
+
+  列 361 至 378
+
+    0.4487    0.3122    0.3264    0.4057    0.2041    0.2095    0.5978    0.1970    0.6709    0.2643    0.6761    0.8860    0.0983    0.0668    0.5070    0.8090    0.6073    0.9169
+
+  列 379 至 396
+
+    0.1325    0.0674    0.4922    0.9273    0.5460    0.3273    0.2690    0.8649    0.1473    0.2167    0.1428    0.2047    0.3053    0.4903    0.6840    0.1437    0.9311    0.6535
+
+  列 397 至 400
+
+    0.6743    0.7425    0.0661    0.3167
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',37,1)">37  </a>   a_k = rem( g(1,:)*[d_k state]', 2 );
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.8325e-01    4.8241e-01    4.8241e-01    4.8492e-01    4.8660e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9288e-01    4.8869e-01    4.8953e-01    4.9204e-01    4.9162e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9358e-01    4.9218e-01    4.9190e-01    4.9274e-01    4.9330e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.8681e-01    4.8807e-01    4.8681e-01    4.8786e-01    4.8890e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9296e-01    4.9397e-01    4.9263e-01    4.9347e-01    4.9481e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',37,1)">37  </a>   a_k = rem( g(1,:)*[d_k state]', 2 );
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',19,1)">19  </a>for i=1:n
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+encode_bit
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('encode_bit', 'C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m', 15)" style="font-weight:bold">encode_bit</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',15,0)">line 15</a>)
+[n,k] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',16,1)">16  </a>m = k-1;
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+rsc_encode
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rsc_encode', 'C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m', 14)" style="font-weight:bold">rsc_encode</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',14,0)">line 14</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',38,1)">38  </a>   [output_bits, state] = encode_bit(g, a_k, state);%完成state的迭代和反馈的更新
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',16,1)">16  </a>m = k-1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+encoderm
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('encoderm', 'C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m', 15)" style="font-weight:bold">encoderm</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',15,0)">line 15</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',30,1)">30  </a>y(2,:) = output1(2:2:2*L_total);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9330e-01    4.9916e-01    4.9497e-01    5.0000e-01    5.0419e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+encoderm
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('encoderm', 'C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m', 15)" style="font-weight:bold">encoderm</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',15,0)">line 15</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',65,1)">65  </a>en_output = 2 * en_output - ones(size(en_output));
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+encoderm
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('encoderm', 'C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m', 15)" style="font-weight:bold">encoderm</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',15,0)">line 15</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',65,1)">65  </a>en_output = 2 * en_output - ones(size(en_output));
+if system_dependent('IsDebugMode')==1, dbcont; end
+load('turbo_sys_demo.mat')
+if system_dependent('IsDebugMode')==1, dbquit; end
+load('turbo_sys_demo.mat')
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',130,1)">130 </a>      rec_s = 0.5*L_c*yk;
+if system_dependent('IsDebugMode')==1, dbquit; end
+rsc_encode
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rsc_encode', 'C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m', 14)" style="font-weight:bold">rsc_encode</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',14,0)">line 14</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.6064e-01    4.6650e-01    4.6817e-01    4.6901e-01    4.6650e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.8409e-01    4.8618e-01    4.8660e-01    4.8702e-01    4.8576e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9386e-01    4.9721e-01    4.9693e-01    4.9693e-01    4.9609e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9728e-01    5.0063e-01    5.0042e-01    4.9979e-01    4.9895e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9514e-01    4.9782e-01    4.9765e-01    4.9631e-01    4.9598e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     1
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Unpunctured, code rate = 1/3 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',127,1)">127 </a>      yk = demultiplex(r,alpha,puncture); % demultiplex to get input for decoder 1 and 2
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+encode_bit
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('encode_bit', 'C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m', 15)" style="font-weight:bold">encode_bit</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',15,0)">line 15</a>)
+[n,k] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encode_bit.m',26,1)">26  </a>state = [input, state(1:m-1)];%状态更新 input是最新输入的
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbstep out; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+rsc_encode
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rsc_encode', 'C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m', 14)" style="font-weight:bold">rsc_encode</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',14,0)">line 14</a>)
+[n,K] = size(g);
+} 
+rsc_encode
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rsc_encode', 'C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m', 14)" style="font-weight:bold">rsc_encode</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\rsc_encode.m',14,0)">line 14</a>)
+[n,K] = size(g);
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    、
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('turbo_sys_demo', 'C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m', 28)" style="font-weight:bold">turbo_sys_demo</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',28,0)">line 28</a>)
+错误: 文本字符无效。请检查不受支持的符号、不可见的字符或非 ASCII 字符的粘贴。
+} 
+
+
+
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',23,1)">23  </a>output1 = rsc_encode(g,input,1);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     1
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Unpunctured, code rate = 1/3 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',126,1)">126 </a>      r = en_output+sigma*randn(1,L_total*(2+puncture)); % received bits
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     1
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Unpunctured, code rate = 1/3 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\encoderm.m',30,1)">30  </a>y(2,:) = output1(2:2:2*L_total);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.2848e-01    5.1843e-01    5.1759e-01    5.1759e-01    5.1759e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.1340e-01    5.0503e-01    5.0419e-01    5.0335e-01    5.0042e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0475e-01    4.9916e-01    4.9860e-01    4.9832e-01    4.9637e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0377e-01    4.9812e-01    4.9791e-01    4.9728e-01    4.9518e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+5.0000e-01    4.9514e-01    4.9598e-01    4.9514e-01    4.9363e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     1
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Unpunctured, code rate = 1/3 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\demultiplex.m',38,1)">38  </a>for j = 1:L_total
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',138,1)">138 </a>         if dec_alg == 0
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\logmapo.m',29,1)">29  </a>Infty = 1e10;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+-rec_s(2*k-3)
+
+ans =
+
+    2.0995
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',89,1)">89  </a>for i = 1:n
+
+ans =
+
+    40
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+logmapo
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('logmapo', 'C:\Users\14814\Desktop\Turbo码编译码程序\logmapo.m', 21)" style="font-weight:bold">logmapo</a> (<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\logmapo.m',21,0)">line 21</a>)
+L_total = length(rec_s)/2;
+} 
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5
+ Please enter number of frame errors to terminate: default 15
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+<a href="matlab: opentoline('C:\Users\14814\Desktop\Turbo码编译码程序\turbo_sys_demo.m',89,1)">89  </a>for i = 1:n
+if system_dependent('IsDebugMode')==1, dbcont; end
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+3 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9749e-01    4.9916e-01    5.0419e-01    5.0503e-01    5.0503e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+6 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9916e-01    5.0168e-01    5.0461e-01    5.0461e-01    5.0461e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+9 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9777e-01    5.0056e-01    5.0223e-01    5.0279e-01    5.0307e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+12 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9895e-01    4.9832e-01    4.9958e-01    5.0021e-01    5.0000e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/2. 
+15 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 5):
+4.9816e-01    4.9816e-01    4.9899e-01    4.9950e-01    4.9916e-01    
+Frame Error Rate (from iteration 1 to iteration 5):
+1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    1.0000e+00    
+***********************************************
+
